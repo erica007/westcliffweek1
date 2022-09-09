@@ -37,16 +37,58 @@ nav{
     padding-top: 2px;
 }
 main{
+    margin: 50px;
     /*height: 400px; */
 }
 main h1 {
     color:rgb(129,141,179);
     font-family: arial;
 }
+
 footer{
     height: 40px;
     background-color: rgb(129,141,179);
     text-align: center;
     padding-top: 20px;
     color: rgb(211,218,240);
+}
+/* page 2 */
+table {
+    margin-top: 35px;
+}
+
+table, caption, th, td { /* group selector */
+    border: 1px solid #000;
+}
+
+th, td {
+    width: 150px;
+    height: 35px;
+    text-align: center;
+}
+caption {
+    text-transform: uppercase;
+    font-weight: 600;
+    height: 40px;
+    padding-top: 15px;
+    color: #753a30;
+}
+/* page 3 */
+label {
+    display: block;
+    margin: 15px 0 0 0;
+}
+input {
+    width: 300px;
+}
+input[type="radio"] {
+    width: 25px;
+}
+textarea {
+    width: 300px;
+}
+input [type="submit"] {
+    display: block;
+    margin: 20px 1 10px 0;
+    width: 100px;
 }
