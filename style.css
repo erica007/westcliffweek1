@@ -92,3 +92,8 @@ input [type="submit"] {
     margin: 20px 1 10px 0;
     width: 100px;
 }
+
+/* Page 4 style */
+main #album #photo img {
+    width: 400px;
+}
